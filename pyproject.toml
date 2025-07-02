@@ -1,0 +1,18 @@
+[project]
+name = "mfastapi"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Charif",email = "hifrook.zen5@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi (>=0.115.14,<0.116.0)",
+    "fastapi-cli (>=0.0.7,<0.0.8)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
